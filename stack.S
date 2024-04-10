@@ -24,7 +24,7 @@
 
 .global main
 main:
-	pushq   %rbp
+    pushq   %rbp
     movq    %rsp, %rbp
 
     subq    $16, %rsp
